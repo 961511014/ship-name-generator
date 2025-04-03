@@ -1,0 +1,47 @@
+ship-name-generator/
+├── public/
+│   ├── favicon.ico
+│   ├── images/
+│   │   ├── hero-ship.jpg
+│   │   ├── category-historic.jpg
+│   │   ├── category-modern.jpg
+│   │   ├── category-funny.jpg
+│   │   ├── category-professional.jpg
+│   │   ├── about-naming.jpg
+│   │   └── testimonial-bg.jpg
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   ├── globals.css
+│   │   ├── generator/
+│   │   │   └── page.js
+│   │   ├── about/
+│   │   │   └── page.js
+│   │   ├── naming-history/
+│   │   │   └── page.js
+│   │   ├── naming-tips/
+│   │   │   └── page.js
+│   │   └── faq/
+│   │       └── page.js
+│   ├── components/
+│   │   ├── Navigation.js
+│   │   ├── Footer.js
+│   │   ├── HeroSection.js
+│   │   ├── GeneratorForm.js
+│   │   ├── ResultsDisplay.js
+│   │   ├── CategorySection.js
+│   │   ├── FeaturesSection.js
+│   │   ├── TestimonialsSection.js
+│   │   ├── BlogPreview.js
+│   │   ├── FaqSection.js
+│   │   └── CtaSection.js
+│   ├── lib/
+│   │   ├── shipNames.js
+│   │   └── generator.js
+│   └── utils/
+│       └── helpers.js
+├── package.json
+├── next.config.js
+├── tailwind.config.js
+└── README.md
